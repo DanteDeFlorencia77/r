@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  background-color: rgba(205, 244, 244, 0.047);
+  border: 1px dashed rgb(205, 244, 244);
+}
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
+.clearfix {
+  /* esta qtiqueta es la que buscaba*/
+  display: flex;
+}
+img {
+  margin-right: 10px;
+  border:solid 2px chocolate;
+}
+.fondo {
+  background-image: url(imagenes/ajedrez_2.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:rgb(205, 244, 244);
+}
+.footer{
+  background-color: #e5e5e5;
+  text-align: center;
+  padding: 10px;
+  margin-top: 7px;
+}
