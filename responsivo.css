@@ -57,3 +57,19 @@ img {
   padding: 10px;
   margin-top: 7px;
 }
+
+/*a:visited{
+  color: #ffc0cb16;
+  background-color: transparent;
+  text-decoration: none;
+}*/
+a:hover{
+  color: rgb(9, 231, 65);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(9, 16, 227);
+  background-color: transparent;
+  text-decoration: underline;
+}*/
